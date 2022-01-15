@@ -40,7 +40,7 @@ const Contact = () => {
                         <img
                             src='https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/344/external-settings-business-kiranshastry-lineal-color-kiranshastry.png'
                             alt='img'
-                            className='w-11'
+                            className='w-4 md:w-11'
                         />
                         <p className='mx-5'> Customization </p>
                     </div>
