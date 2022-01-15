@@ -29,19 +29,19 @@ const Projects = () => {
 
     return (
         <>
-            <h1 className='mt-10 mb-10 flex justify-center text-5xl  font-medium'>
+            <h1 className='mt-10 mb-10 flex justify-center text-3xl md:text-5xl font-medium'>
                 My Few Projects
             </h1>
             <div className='flex justify-center text-slate-400 text-2xl'>
-                <p className='flex text-center py-5 w-2/3'>
+                <p className='flex text-center py-2 md:py-5 md:w-2/3'>
                     Here is my few projects which was i created in lockdown for the learning and devloping perpose.
                 </p>
             </div>
-            <div className='flex justify-center gap-5 mt-10'>
+            <div className='md:flex justify-center gap-5 mt-10'>
                 {project.map((data) => {
                     return (
                         <>
-                            <div className='w-4/12 py-8 rounded shadow-2xl px-5 justify-center'>
+                            <div className='w-full md:w-4/12 py-8 rounded shadow-2xl px-5 justify-center'>
                                 <div className=''>
                                     <img
                                         src={data.img}

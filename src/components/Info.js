@@ -7,10 +7,11 @@ const Info = () => {
             <h1 id="contact" className="mt-10 mb-10 flex justify-center text-5xl  font-medium ">
                 What I Do 👨‍🔬?
             </h1>
+
             {/* my cards */}
             <div className=' grid grid-cols-1 lg:grid-cols-3 lg:gap-3 justify-items-center mt-20 '>
                 {/* my 1st cards */}
-                <div className='bg-gradient-to-r from-green-400 to-blue-500  my-5 md:my-0 px-5 py-8 text-2xl rounded overflow-hidden shoadow-lg text-center max-w-sm'>
+                <div className='bg-gradient-to-r from-green-400 to-blue-500 hover:shadow-xl my-5 md:my-0 px-5 py-8 text-xl rounded overflow-hidden shoadow-lg text-center max-w-sm'>
                     <div className='text-white'>
                         I Design !
                     </div>
@@ -25,13 +26,12 @@ const Info = () => {
                             Express, HTML, Bootstrap, WordPress, and few others.
                         </p>
                     </div>
-                    <div className='flex justify-center rounded shadow-xl mx-auto w-1/12 bg-gradient-to-r from-green-400 to-blue-500 px-8 py-3 text-white '
-                        type="submit">
-                        <a href='https://github.com/' target="_blank" rel="noreferrer"> <FaGithub /> </a>
+                    <div className='flex justify-center rounded shadow-xl mx-auto w-1/12 bg-gradient-to-r from-green-400 to-blue-500 px-8 py-3 text-white'>
+                        <a href='https://github.com/parmarrahull' target="_blank" rel="noreferrer"> <FaGithub /> </a>
                     </div>
                 </div>
                 {/* my 2nd cards */}
-                <div className='bg-gradient-to-r from-pink-400 to-purple-500 my-5 md:my-0 px-5 py-8 text-2xl rounded overflow-hidden shoadow-lg text-center max-w-sm '>
+                <div className='bg-gradient-to-r from-pink-400 to-purple-500 hover:shadow-xl my-5 md:my-0 px-5 py-8 text-xl rounded overflow-hidden shoadow-lg text-center max-w-sm '>
                     <div className='text-white'>
                         I Build !
                     </div>
@@ -52,7 +52,7 @@ const Info = () => {
                     </div>
                 </div>
                 {/* my 3rd cards */}
-                <div className='bg-gradient-to-r from-orange-200 to-orange-500 my-5 md:my-0 px-5 py-8 text-2xl rounded overflow-hidden shoadow-lg text-center max-w-sm '>
+                <div className='bg-gradient-to-r from-orange-200 to-orange-500 hover:shadow-xl my-5 md:my-0 px-5 py-8 text-xl rounded overflow-hidden shoadow-lg text-center max-w-sm '>
                     <div className='text-white'>
                         I Develop !
                     </div>
@@ -68,7 +68,7 @@ const Info = () => {
                         </p>
                     </div>
                     <div className='flex justify-center  shadow-xl mx-auto w-1/12 rounded bg-gradient-to-r from-yellow-200 to-orange-500 px-8 py-3 text-white'>
-                        <p> <FaEnvelope /></p>
+                        <a href="https://www.linkedin.com/feed/" target="_blank" rel="noreferrer"> <FaEnvelope /> </a>
                     </div>
                 </div>
             </div>

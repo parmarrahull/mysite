@@ -44,14 +44,16 @@ const Info2 = () => {
             {arr.map((data, id) => {
                 return (
                     <>
-                        <div className={`flex my-10 py-8 mx-20 ${(id + 1) % 2 === 0 && "flex-row-reverse"}`}>
-                            <div className='mr-5'>
-                                <img 
-                                    src={data.img}
-                                    alt='img'
-                                    className='max-w-lg shadow-xl rounded-md' />
+                        <div className={`flex my-10 flex-col md:flex-row py-8 mx-5 text-center md:text-left md:mx-20 ${(id + 1) % 2 === 0 && "md:flex-row-reverse"}`}>
+                            <div>
+                                <div className='mr-5 '>
+                                    <img
+                                        src={data.img}
+                                        alt='img'
+                                        className='max-w-lg shadow-xl rounded-md' />
+                                </div>
                             </div>
-                            <div className=''>
+                            <div className='w-full'>
                                 <div className='text-blue-500 text-xl font-bold'>
                                     {data.title}
                                 </div>
@@ -64,6 +66,7 @@ const Info2 = () => {
                                     </p>
                                 </div>
                             </div>
+
                         </div>
                     </>
                 )
