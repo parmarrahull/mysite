@@ -1,7 +1,7 @@
 import React from 'react'
-import { FcAdvertising } from "react-icons/fc";
-import { FaEnvelope, FaMapMarkerAlt, FaPhone, FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaEnvelope,FaBullhorn, FaMapMarkerAlt, FaPhone, FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { IoIosSpeedometer } from "react-icons/io";
+import {MdOutlineSettingsSuggest} from "react-icons/md"
 
 const Contact = () => {
 
@@ -20,7 +20,7 @@ const Contact = () => {
             <div className='md:flex justify-center text-xl w-full md:w-auto my-5 mx-20'>
                 <div>
                     <div className='flex my-5 text-3xl'>
-                        <FcAdvertising />
+                        <FaBullhorn />
                         <p className='mx-5'> Marketing </p>
                     </div>
                     <div>
@@ -37,11 +37,7 @@ const Contact = () => {
                 </div>
                 <div>
                     <div className='flex my-5 text-3xl'>
-                        <img
-                            src='https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/344/external-settings-business-kiranshastry-lineal-color-kiranshastry.png'
-                            alt='img'
-                            className='w-4 md:w-11'
-                        />
+                        <MdOutlineSettingsSuggest />
                         <p className='mx-5'> Customization </p>
                     </div>
                     <div>
