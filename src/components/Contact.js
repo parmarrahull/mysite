@@ -75,11 +75,11 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <div className='shadow-2xl py-16 border  rounded  mx-20 mb-16'>
+            <div className='shadow-2xl py-16 border  rounded mx-auto md:mx-20 mb-16'>
 
 
                 <div className='md:flex'>
-                    <div className="mx-auto md:mx-24 my-full md:my-16 w-full md:w-1/3 border border-purple-500 bg-white">
+                    <div className="mx-auto md:mx-24 my-auto md:my-16 w-full md:w-1/3 border border-purple-500 bg-white">
                         <div className='p-5 space-y-5 shadow-xl'>
                             <h4 className='text-center text-3xl'> Contact Us </h4>
                             <from>
@@ -122,7 +122,7 @@ const Contact = () => {
                     <div className='flex md:flex-row-reverse my-10 py-8 mx-20'>
                         <div className='flex-row-reverse'>
                             <div>
-                                <h1 className='flex text-xl  md:text-4xl text-center md:text-left '>Contact information</h1>
+                                <h1 className='flex text-3xl  md:text-4xl text-center md:text-left '>Contact information</h1>
                             </div>
 
                             <div className='flex my-5 md:my-10 flex-col '>
