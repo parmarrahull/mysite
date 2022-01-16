@@ -10,17 +10,20 @@ import Projects from './components/Projects';
 
 
 function App() {
-  return (
-   <>
-    <Home />
-    <Info />
-    <Info2 />
-    <Myskill />
-    <Projects />
-    <Contact />
-    <Footer />
-   </>
-  );
+    return (
+        <>
+
+            <div className='font-quicksand' >
+                <Home />
+                <Info />
+                <Info2 />
+                <Myskill />
+                <Projects />
+                <Contact />
+                <Footer />
+            </div>
+        </>
+    );
 };
 
 export default App;
