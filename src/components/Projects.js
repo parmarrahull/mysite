@@ -41,7 +41,7 @@ const Projects = () => {
                 {project.map((data) => {
                     return (
                         <>
-                            <div className='w-full md:w-4/12 py-8 rounded shadow-2xl px-5 justify-center'>
+                            <div className='w-full md:w-4/12 py-8 rounded shadow-2xl hover:shadow-xl px-5 justify-center'>
                                 <div className=''>
                                     <img
                                         src={data.img}
