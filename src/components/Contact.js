@@ -1,7 +1,7 @@
 import React from 'react'
-import { FaEnvelope,FaBullhorn, FaMapMarkerAlt, FaPhone, FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaEnvelope, FaBullhorn, FaMapMarkerAlt, FaPhone, FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { IoIosSpeedometer } from "react-icons/io";
-import {MdOutlineSettingsSuggest} from "react-icons/md"
+import { MdOutlineSettingsSuggest } from "react-icons/md"
 
 const Contact = () => {
 
@@ -81,24 +81,24 @@ const Contact = () => {
                             <from>
                                 <div className='grid grid-cols-2 gap-5'>
                                     <input
-                                        className='border border-gray-500 hover:border-gray-800 px-4 py-2 focus:outline-none focus:boredr-purple-500 col-span-2'
+                                        className='border border-gray-500 hover:border-gray-900 px-4 py-2 focus:outline-none focus:boredr-purple-500 col-span-2'
                                         type="text"
                                         placeholder='Your name'
                                     />
                                     <input
-                                        className='border border-gray-500 hover:border-gray-800 px-4 py-2 focus:outline-none focus:boredr-purple-500 col-span-2'
+                                        className='border border-gray-500 hover:border-gray-900 px-4 py-2 focus:outline-none focus:boredr-purple-500 col-span-2'
                                         type="text"
                                         placeholder='Your email'
                                     />
-                                    <input className='border border-gray-500 hover:border-gray-800 px-4 py-2 focus:outline-none focus:boredr-purple-500 col-span-2'
+                                    <input className='border border-gray-500 hover:border-gray-900 px-4 py-2 focus:outline-none focus:boredr-purple-500 col-span-2'
                                         type="text"
                                         placeholder='Your phone'
                                     />
-                                    <input className='border border-gray-500 hover:border-gray-800 px-4 py-2 focus:outline-none focus:boredr-purple-500 col-span-2'
+                                    <input className='border border-gray-500 hover:border-gray-900 px-4 py-2 focus:outline-none focus:boredr-purple-500 col-span-2'
                                         type="text"
                                         placeholder='Your company'
                                     />
-                                    <textarea className='border border-gray-500 hover:border-gray-800 px-4 py-2 focus:outline-none focus:boredr-purple-500 col-span-2'
+                                    <textarea className='border border-gray-500 hover:border-gray-900 px-4 py-2 focus:outline-none focus:boredr-purple-500 col-span-2'
                                         cols="10"
                                         rows="5"
                                         placeholder='Your message'
@@ -148,7 +148,6 @@ const Contact = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
