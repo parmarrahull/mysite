@@ -127,7 +127,7 @@ const Contact = () => {
                                 </div>
                                 <div className=''>
                                     <p className='flex items-center py-2 text-xl font-semibold'>
-                                        <FaPhone /> &nbsp; 910474488
+                                        <FaPhone /> &nbsp; 9104744888
                                     </p>
                                 </div>
                                 <div className=''>
