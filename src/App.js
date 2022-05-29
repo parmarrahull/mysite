@@ -1,29 +1,25 @@
 import React from 'react';
 import './App.css';
+import Banner from "./components/Banner";
+import Nav from './components/Nav';
+import Services from './components/Services';
+import About from './components/About';
+import Prices from './components/Prices';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Home from './components/Home';
-import Info from './components/Info';
-import Info2 from './components/Info2';
-import Myskill from './components/Myskill';
-import Projects from './components/Projects';
-
+import Somemore from './components/Somemore';
 
 function App() {
-    return (
-        <>
-
-            <div className='font-quicksand' >
-                <Home />
-                <Info />
-                <Info2 />
-                <Myskill />
-                <Projects />
-                <Contact />
-                <Footer />
-            </div>
-        </>
-    );
-};
+  return (
+    <div>
+      <Banner />
+      <Nav />
+      <Services />
+      <About />
+      <Prices />
+      <Contact />
+      <Somemore />
+    </div>
+  );
+}
 
 export default App;
