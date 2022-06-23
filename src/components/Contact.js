@@ -123,7 +123,7 @@ const Contact = () => {
 
                             <div className='flex my-5 md:my-10 flex-col '>
                                 <div className='flex py-2 text-xl font-semibold' >
-                                    <p className='flex items-center py-2'><FaMapMarkerAlt /> &nbsp; Limbdi, 363421 India.</p>
+                                    <p className='flex items-center py-2'><FaMapMarkerAlt /> &nbsp; Surendranagar, India.</p>
                                 </div>
                                 <div className=''>
                                     <p className='flex items-center py-2 text-xl font-semibold'>
